@@ -67,3 +67,14 @@
   padding-top: 50px;
   gap: 10px;
 }
+
+@media (max-width: 1200px) {
+  .first-section #first-section-container-fluid .image-right {
+    background-image: url(../image/group-header.png);
+    height: 100vh;
+    width: 90em;
+    background-size: 580px;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+  }
+}
