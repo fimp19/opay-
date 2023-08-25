@@ -29,24 +29,33 @@
   background-image: url(../image/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
 }
 .first-section #first-section-container {
   display: flex;
   justify-content: center;
   height: 100vh;
-  margin-top: 70px;
+  margin-top: 60px;
   padding-top: 100px;
 }
 .first-section h1 {
   font-family: "Encode Sans", sans-serif;
   font-size: 2.8em;
 }
+.first-section .first-h1 {
+  display: none;
+}
 .first-section p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.first-section .second-p {
+  display: none;
+}
+.first-section .line2 {
+  display: none;
+}
 .first-section .text-left {
-  width: 80em;
+  width: 90em;
   padding: 10px;
   padding-top: 60px;
 }
@@ -54,7 +63,7 @@
   background-image: url(../image/group-header.png);
   height: 100vh;
   width: 90em;
-  background-size: 580px;
+  background-size: 560px;
   background-repeat: no-repeat;
   background-position: 0px -20px;
 }
@@ -73,8 +82,729 @@
     background-image: url(../image/group-header.png);
     height: 100vh;
     width: 90em;
-    background-size: 580px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: 0px -20px;
   }
+  .first-section #first-section-container-fluid #first-section-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 70px;
+    padding-top: 100px;
+  }
+  .first-section #first-section-container-fluid .line {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .first-section #first-section-container-fluid .image-right {
+    background-image: url(../image/group-header.png);
+    height: 100vh;
+    width: 90em;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 100px -20px;
+  }
+  .first-section #first-section-container-fluid #first-section-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 70px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+  }
+  .first-section #first-section-container-fluid h1 {
+    display: none;
+  }
+  .first-section #first-section-container-fluid p {
+    display: none;
+  }
+  .first-section #first-section-container-fluid .first-h1 {
+    display: block;
+    text-align: center;
+  }
+  .first-section #first-section-container-fluid .text-left {
+    width: 90em;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  .first-section #first-section-container-fluid .second-p {
+    display: block;
+    text-align: center;
+  }
+  .first-section #first-section-container-fluid .ndic {
+    text-align: center;
+  }
+  .first-section #first-section-container-fluid .download-link {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .first-section #first-section-container-fluid .image-right {
+    background-image: url(../image/group-header.png);
+    width: 90em;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 70px -20px;
+  }
+}
+@media (max-width: 466px) {
+  .first-section #first-section-container-fluid .image-right {
+    background-image: url(../image/group-header.png);
+    height: 100vh;
+    width: 90em;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: -10px -20px;
+  }
+}
+.second-section {
+  margin-top: 100px;
+}
+.second-section .first-carosel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.second-section .big-div {
+  height: 90vh;
+  width: 23em;
+}
+.second-section .image-on-top {
+  height: 65vh;
+  width: 23em;
+  background-image: url(../image/transfer1.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 340px;
+  background-position: 74px -36px;
+  position: absolute;
+  top: -300px;
+}
+.second-section .first-div {
+  height: 49vh;
+  margin-top: 300px;
+  background-color: rgb(248, 251, 255);
+  width: 23em;
+  position: relative;
+  padding: 70px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.second-section .first-div:hover,
+.second-section .first-div:hover .star,
+.second-section .first-div:hover h4,
+.second-section .first-div:hover p {
+  color: white;
+  background-color: rgb(30, 206, 159);
+}
+.second-section .star {
+  width: 30px;
+}
+.second-section h4 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 21px;
+  color: rgb(47, 59, 76);
+  margin-top: 70px;
+}
+.second-section p {
+  color: rgb(47, 59, 76);
+  line-height: 30px;
+}
+.second-section .big-div2 {
+  height: 90vh;
+  width: 23em;
+}
+.second-section .image-on-top2 {
+  height: 65vh;
+  width: 23em;
+  background-image: url(../image/transfer2.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 340px;
+  background-position: 74px -36px;
+  position: absolute;
+  top: -300px;
+}
+.second-section .first-div2 {
+  height: 49vh;
+  margin-top: 300px;
+  background-color: rgb(248, 251, 255);
+  width: 23em;
+  position: relative;
+  padding: 70px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.second-section .first-div2:hover,
+.second-section .first-div2:hover .star,
+.second-section .first-div2:hover h4,
+.second-section .first-div2:hover p {
+  color: white;
+  background-color: rgb(30, 206, 159);
+}
+.second-section .star {
+  width: 30px;
+}
+.second-section h4 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(47, 59, 76);
+  margin-top: 70px;
+}
+.second-section p {
+  color: rgb(47, 59, 76);
+  line-height: 30px;
+}
+.second-section .big-div3 {
+  height: 90vh;
+  width: 23em;
+}
+.second-section .image-on-top3 {
+  height: 65vh;
+  width: 23em;
+  background-image: url(../image/transfer3.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 340px;
+  background-position: 74px -36px;
+  position: absolute;
+  top: -300px;
+}
+.second-section .first-div3 {
+  height: 49vh;
+  margin-top: 300px;
+  background-color: rgb(248, 251, 255);
+  width: 23em;
+  position: relative;
+  padding: 70px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.second-section .first-div3:hover,
+.second-section .first-div3:hover .star,
+.second-section .first-div3:hover h4,
+.second-section .first-div3:hover p {
+  color: white;
+  background-color: rgb(30, 206, 159);
+}
+.second-section .star {
+  width: 30px;
+}
+.second-section h4 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(47, 59, 76);
+  margin-top: 70px;
+}
+.second-section p {
+  color: rgb(47, 59, 76);
+  line-height: 30px;
+}
+.second-section .big-div4 {
+  height: 90vh;
+  width: 23em;
+}
+.second-section .image-on-top4 {
+  height: 65vh;
+  width: 23em;
+  background-image: url(../image/transfer4.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 340px;
+  background-position: 74px -36px;
+  position: absolute;
+  top: -300px;
+}
+.second-section .first-div4 {
+  height: 49vh;
+  margin-top: 300px;
+  background-color: rgb(248, 251, 255);
+  width: 23em;
+  position: relative;
+  padding: 70px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.second-section .first-div4:hover,
+.second-section .first-div4:hover .star,
+.second-section .first-div4:hover h4,
+.second-section .first-div4:hover p {
+  color: white;
+  background-color: rgb(30, 206, 159);
+}
+.second-section .star {
+  width: 30px;
+}
+.second-section h4 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(47, 59, 76);
+  margin-top: 70px;
+}
+.second-section p {
+  color: rgb(47, 59, 76);
+  line-height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .second-section {
+    margin-top: 200px;
+  }
+}
+@media (max-width: 992px) {
+  .second-section {
+    margin-top: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .second-section {
+    margin-top: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .second-section {
+    margin-top: 650px;
+  }
+}
+.third-section {
+  margin-top: 80px;
+  margin-bottom: 130px;
+}
+.third-section h3 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 35px;
+  color: rgb(47, 59, 76);
+  padding-bottom: 40px;
+}
+.third-section p {
+  line-height: 38px;
+}
+.third-section .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 70px;
+}
+
+#fourth-section {
+  background-color: rgb(244, 252, 250);
+  height: 80vh;
+  text-align: center;
+  padding: 30px 0px;
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#fourth-section p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+}
+#fourth-section .debit-card {
+  margin: auto;
+  width: 60em;
+  height: 60vh;
+  background-image: url(../image/debit-cards.png);
+  background-size: 70em;
+  background-repeat: no-repeat;
+  background-position: -80px 30px;
+}
+
+@media (max-width: 1200px) {
+  #fourth-section .debit-card {
+    margin: auto;
+    width: 40em;
+    height: 48vh;
+    background-image: url(../image/debit-cards.png);
+    background-size: 50em;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 992px) {
+  #fourth-section .debit-card {
+    margin: auto;
+    width: 30em;
+    height: 48vh;
+    background-image: url(../image/debit-cards.png);
+    background-size: 40em;
+    background-repeat: no-repeat;
+    background-position: -80px -5px;
+  }
+}
+@media (max-width: 550px) {
+  #fourth-section .debit-card {
+    margin: auto;
+    width: 25em;
+    height: 48vh;
+    background-image: url(../image/debit-cards.png);
+    background-size: 20em;
+    background-repeat: no-repeat;
+    background-position: -80px -5px;
+  }
+}
+.fifth-section {
+  margin-bottom: 180px;
+}
+
+#sixth-section1 {
+  background-color: rgb(244, 252, 250);
+}
+#sixth-section1 #sixth-section {
+  background-color: rgb(244, 252, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  margin-bottom: 120px;
+  gap: 80px;
+}
+#sixth-section1 .image-left {
+  width: 20em;
+  background-image: url(../image/opay-app.png);
+  height: 65vh;
+  background-size: cover;
+  background-position: -210px 0px;
+}
+#sixth-section1 .first-h11 {
+  font-family: "Encode Sans", sans-serif;
+  color: rgb(47, 59, 76);
+  font-size: 40px;
+  display: block;
+}
+#sixth-section1 .second-h1 {
+  font-family: "Encode Sans", sans-serif;
+  color: rgb(47, 59, 76);
+  font-size: 30px;
+  display: none;
+}
+#sixth-section1 .right-inside {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+#sixth-section1 .barcode {
+  height: 15vh;
+  width: 7em;
+  padding: 16px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 2px 10px 18px rgb(180, 177, 177);
+}
+
+@media (max-width: 1200px) {
+  #sixth-section1 {
+    background-color: rgb(244, 252, 250);
+  }
+  #sixth-section1 #sixth-section {
+    background-color: rgb(244, 252, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 90px;
+    gap: 80px;
+  }
+  #sixth-section1 .image-left {
+    width: 20em;
+    background-image: url(../image/opay-app.png);
+    height: 65vh;
+    background-size: cover;
+    background-position: -210px 0px;
+  }
+  #sixth-section1 .image-left {
+    width: 20em;
+    background-image: url(../image/opay-app.png);
+    height: 45vh;
+    background-size: cover;
+    background-position: -510px 0px;
+  }
+  #sixth-section1 .first-h11 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 30px;
+    display: none;
+  }
+  #sixth-section1 .second-h1 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 30px;
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  #sixth-section1 {
+    background-color: rgb(244, 252, 250);
+  }
+  #sixth-section1 #sixth-section {
+    background-color: rgb(244, 252, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 90px;
+    gap: 80px;
+  }
+  #sixth-section1 .image-left {
+    width: 20em;
+    background-image: url(../image/opay-app.png);
+    height: 65vh;
+    background-size: cover;
+    background-position: -210px 0px;
+  }
+  #sixth-section1 .first-h11 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 40px;
+    display: block;
+  }
+  #sixth-section1 .second-h1 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 30px;
+    display: none;
+  }
+  #sixth-section1 .right-inside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  #sixth-section1 .barcode {
+    height: 15vh;
+    width: 7em;
+    padding: 16px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 2px 10px 18px rgb(180, 177, 177);
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
+  #sixth-section1 {
+    background-color: rgb(244, 252, 250);
+  }
+  #sixth-section1 #sixth-section {
+    background-color: rgb(244, 252, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 90px;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+  #sixth-section1 .image-left {
+    width: 20em;
+    background-image: url(../image/opay-app.png);
+    height: 45vh;
+    background-size: cover;
+    background-position: -80px 0px;
+  }
+  #sixth-section1 .first-h11 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 30px;
+    display: none;
+  }
+  #sixth-section1 .second-h1 {
+    font-family: "Encode Sans", sans-serif;
+    color: rgb(47, 59, 76);
+    font-size: 30px;
+    display: block;
+  }
+}
+#section7 {
+  background-color: rgb(244, 252, 250);
+  height: 80vh;
+  margin-bottom: 80px;
+}
+#section7 .text-div {
+  padding-top: 60px;
+}
+#section7 h1 {
+  font-family: "Encode Sans", sans-serif;
+  color: rgb(33, 15, 96);
+  font-size: 50px;
+}
+#section7 p {
+  color: rgb(33, 15, 96);
+  font-size: 33px;
+  padding-bottom: 60px;
+}
+#section7 .scroll-div {
+  height: 40vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+
+#section8 {
+  padding-top: 80px;
+  margin-bottom: 360px;
+}
+#section8 h1 {
+  font-family: "Encode Sans", sans-serif;
+  color: rgb(33, 15, 96);
+  font-size: 50px;
+}
+#section8 .flex-box {
+  display: flex;
+  padding-top: 130px;
+  gap: 30px;
+  justify-content: center;
+}
+#section8 .boxx1 {
+  background-color: rgb(243, 252, 250);
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+#section8 .boxx1 p {
+  line-height: 30px;
+  font-size: 17px;
+}
+#section8 .boxx2 {
+  background-color: rgb(243, 252, 250);
+  padding: 30px;
+  border-radius: 20px;
+}
+#section8 .boxx2 p {
+  line-height: 30px;
+  font-size: 17px;
+}
+#section8 .shield {
+  background-image: url(../image/security.png);
+  height: 80vh;
+  width: 40em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -130px;
+}
+
+@media (max-width: 1200px) {
+  #section8 .shield {
+    background-image: url(../image/security.png);
+    height: 60vh;
+    width: 40em;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media (max-width: 992px) {
+  #section8 .flex-box {
+    display: flex;
+    padding-top: 130px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #section8 .shield {
+    margin-top: 30px;
+    background-image: url(../image/security.png);
+    height: 80vh;
+    width: 40em;
+    background-repeat: no-repeat;
+    background-size: 30em;
+    background-position: 130px 10px;
+  }
+}
+#section91 {
+  margin-bottom: 90px;
+}
+#section91 #section9 {
+  background-color: rgb(33, 15, 96);
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+#section91 .text-here {
+  width: 38em;
+  padding: 80px 20px;
+}
+#section91 .text-here h1 {
+  font-family: "Encode Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+#section91 .text-here p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: left;
+}
+#section91 .text-here .flex-div {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+}
+#section91 .text-here .flex-div p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#section91 .image-here {
+  margin-top: -200px;
+}
+
+@media (max-width: 1200px) {
+  .help-img {
+    width: 25em;
+  }
+}
+@media (max-width: 992px) {
+  #section91 {
+    margin-bottom: 90px;
+  }
+  #section91 #section9 {
+    background-color: rgb(33, 15, 96);
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  #section91 .help-img {
+    display: none;
+  }
+}
+#footer-container1 {
+  background-color: rgb(29, 207, 159);
+  margin-bottom: 150px;
+  margin-top: 130px;
+}
+#footer-container1 #footer-container2 {
+  background-color: rgb(29, 207, 159);
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding: 30px 20px;
+  justify-content: space-between;
+}
+#footer-container1 p {
+  line-height: 44px;
+  font-size: 17px;
+  color: white;
+}
+
+#footer1 {
+  background-color: rgb(210, 245, 236);
+}
+#footer1 #footer2 {
+  background-color: rgb(210, 245, 236);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }

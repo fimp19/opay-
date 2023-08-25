@@ -30,14 +30,14 @@
         // border: thin solid black;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 80vh;
     }
     #first-section-container{
         display: flex;
         justify-content: center;
         height: 100vh;
         // border: thin solid red;
-        margin-top: 70px;
+        margin-top: 60px;
         padding-top: 100px;
         // flex-wrap: wrap;
        
@@ -46,11 +46,20 @@
         font-family: 'Encode Sans', sans-serif;
         font-size: 2.8em;
     }
+    .first-h1{
+        display: none;
+    }
     p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    .second-p{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
     .text-left{
-        width: 80em;
+        width: 90em;
         padding: 10px;
         padding-top: 60px;
     }
@@ -59,7 +68,7 @@
         // border: thin solid black;
         height: 100vh;
         width: 90em;
-        background-size: 580px;
+        background-size: 560px;
         background-repeat: no-repeat;
         background-position: 0px -20px;
       
@@ -82,18 +91,887 @@
         // border: thin solid black;
         height: 100vh;
         width: 90em;
-        background-size: 580px;
+        background-size: 500px;
         background-repeat: no-repeat;
         background-position: 0px -20px;
     }
-
-
-
-
-
-
-
-    
+    #first-section-container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        // border: thin solid red;
+        margin-top: 70px;
+        padding-top: 100px;
+        // flex-wrap: wrap;
+    }
+    .line{
+        display: none;
+    }
 }       
         }
 }
+
+@media (max-width: 992px){
+    .first-section{
+        #first-section-container-fluid{
+        .image-right{
+        background-image: url(../image/group-header.png);
+        // border: thin solid black;
+        height: 100vh;
+        width: 90em;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 100px -20px;
+    }
+    #first-section-container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        // border: thin solid red;
+        margin-top: 70px;
+        padding-top: 100px;
+        flex-wrap: wrap;
+    }
+    h1{ display: none;}
+    p{ display: none;}
+    .first-h1{
+        display: block;
+        text-align: center;
+    }
+    .text-left{
+        width: 90em;
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .second-p{
+        display: block;
+        text-align: center;
+    }
+    .ndic{
+        text-align: center;
+    }
+    .download-link{
+        justify-content: center;
+    }
+   
+}}  
+}
+
+@media (max-width: 768px){
+
+    .first-section{
+        #first-section-container-fluid{
+        .image-right{
+        background-image: url(../image/group-header.png);
+        // border: thin solid black;
+        // height: 100vh;
+        width: 90em;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 70px -20px;
+        }
+    }}
+}
+
+@media (max-width: 466px){
+
+    .first-section{
+        #first-section-container-fluid{
+        .image-right{
+        background-image: url(../image/group-header.png);
+        // border: thin solid black;
+        height: 100vh;
+        width: 90em;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: -10px -20px;
+        }
+    }}
+}
+
+
+
+
+// endof section one
+// begginning of section two
+
+.second-section{
+    margin-top: 100px;
+    .first-carosel{
+        // border: thin solid black;
+        // height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+    }
+    .big-div{
+        // border: thin solid black;
+        height: 90vh;
+        width: 23em;  
+        
+    }
+    .image-on-top{
+        // border: thin solid black;
+        height: 65vh;
+        width: 23em;
+        background-image: url(../image/transfer1.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 340px;
+        background-position: 74px -36px;
+        position: absolute;
+        top: -300px; 
+    }
+    .first-div{
+        // border: thin solid black;
+        height: 49vh;
+        margin-top: 300px;
+        background-color: rgb(248,251,255);
+        width: 23em;
+        position: relative;
+        padding: 70px 40px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .first-div:hover,
+    .first-div:hover .star,
+    .first-div:hover h4,
+    .first-div:hover p{
+        color: white;
+        background-color: rgb(30,206,159);
+    }
+   .star{
+     width: 30px;
+   }
+   
+    
+    h4{
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 21px;
+        color: rgb(47,59,76);
+        margin-top: 70px;
+    }
+    p{
+        color: rgb(47,59,76);
+        line-height: 30px;
+    }
+
+    // ---------------------------------------u
+    .big-div2{
+        // border: thin solid black;
+        height: 90vh;
+        width: 23em;  
+        
+    }
+    .image-on-top2{
+        // border: thin solid black;
+        height: 65vh;
+        width: 23em;
+        background-image: url(../image/transfer2.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: 340px;
+        background-position: 74px -36px;
+        position: absolute;
+        top: -300px; 
+    }
+    .first-div2{
+        // border: thin solid black;
+        height: 49vh;
+        margin-top: 300px;
+        background-color: rgb(248,251,255);
+        width: 23em;
+        position: relative;
+        padding: 70px 40px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .first-div2:hover,
+    .first-div2:hover .star,
+    .first-div2:hover h4,
+    .first-div2:hover p{
+        color: white;
+        background-color: rgb(30,206,159);
+    }
+   .star{
+     width: 30px;
+   }
+   
+    
+    h4{
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 20px;
+        color: rgb(47,59,76);
+        margin-top: 70px;
+    }
+    p{
+        color: rgb(47,59,76);
+        line-height: 30px;
+    }
+
+ // ---------------------------------------u
+ .big-div3{
+    // border: thin solid black;
+    height: 90vh;
+    width: 23em;  
+    
+}
+.image-on-top3{
+    // border: thin solid black;
+    height: 65vh;
+    width: 23em;
+    background-image: url(../image/transfer3.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 340px;
+    background-position: 74px -36px;
+    position: absolute;
+    top: -300px; 
+}
+.first-div3{
+    // border: thin solid black;
+    height: 49vh;
+    margin-top: 300px;
+    background-color: rgb(248,251,255);
+    width: 23em;
+    position: relative;
+    padding: 70px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.first-div3:hover,
+.first-div3:hover .star,
+.first-div3:hover h4,
+.first-div3:hover p{
+    color: white;
+    background-color: rgb(30,206,159);
+}
+.star{
+ width: 30px;
+}
+
+
+h4{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(47,59,76);
+    margin-top: 70px;
+}
+p{
+    color: rgb(47,59,76);
+    line-height: 30px;
+}
+
+ // ---------------------------------------u
+ .big-div4{
+    // border: thin solid black;
+    height: 90vh;
+    width: 23em;  
+    
+}
+.image-on-top4{
+    // border: thin solid black;
+    height: 65vh;
+    width: 23em;
+    background-image: url(../image/transfer4.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 340px;
+    background-position: 74px -36px;
+    position: absolute;
+    top: -300px; 
+}
+.first-div4{
+    // border: thin solid black;
+    height: 49vh;
+    margin-top: 300px;
+    background-color: rgb(248,251,255);
+    width: 23em;
+    position: relative;
+    padding: 70px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.first-div4:hover,
+.first-div4:hover .star,
+.first-div4:hover h4,
+.first-div4:hover p{
+    color: white;
+    background-color: rgb(30,206,159);
+}
+.star{
+ width: 30px;
+}
+
+
+h4{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(47,59,76);
+    margin-top: 70px;
+}
+p{
+    color: rgb(47,59,76);
+    line-height: 30px;
+}
+}
+
+@media (max-width: 1200px){
+    .second-section{
+        margin-top: 200px;}
+
+}
+@media (max-width: 992px){
+    .second-section{
+        margin-top: 400px;}
+}
+@media (max-width: 768px){
+    .second-section{
+        margin-top: 500px;}
+}
+@media (max-width: 550px){
+    .second-section{
+        margin-top: 650px;}
+
+}
+
+// end of second section
+
+.third-section{
+    margin-top: 80px;
+    margin-bottom: 130px;
+
+    h3{
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 35px;
+        color: rgb(47,59,76);
+        padding-bottom: 40px;
+        
+    }
+    p{
+        line-height: 38px;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        // border: thin solid black;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 70px;
+    }
+}
+
+// end-of third section
+
+#fourth-section{
+    background-color: rgb(244,252,250);
+    height: 80vh;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.debit-card{
+    margin: auto;
+    width: 60em;
+    // border: thin solid black;
+    height: 60vh;
+    background-image: url(../image/debit-cards.png);
+    background-size: 70em;
+    background-repeat: no-repeat;
+    background-position: -80px 30px;
+
+}
+
+}
+@media (max-width: 1200px){
+    #fourth-section{
+        .debit-card{
+            margin: auto;
+            width: 40em;
+            // border: thin solid black;
+            height: 48vh;
+            background-image: url(../image/debit-cards.png);
+            background-size: 50em;
+            background-repeat: no-repeat;
+            // background-position: 150px 10px;
+        
+        }  
+    }     
+}
+@media (max-width: 992px){
+    #fourth-section{
+        .debit-card{
+            margin: auto;
+            width: 30em;
+            // border: thin solid black;
+            height: 48vh;
+            background-image: url(../image/debit-cards.png);
+            background-size: 40em;
+            background-repeat: no-repeat;
+            background-position: -80px -5px;
+        
+        }  
+    }     
+}
+@media (max-width: 550px){
+    #fourth-section{
+        .debit-card{
+            margin: auto;
+            width: 25em;
+            // border: thin solid black;
+            height: 48vh;
+            background-image: url(../image/debit-cards.png);
+            background-size: 20em;
+            background-repeat: no-repeat;
+            background-position: -80px -5px;
+        
+        }  
+    }     
+}
+
+.fifth-section{
+    margin-bottom: 180px;
+}
+
+
+
+// sixth-section
+#sixth-section1{
+    background-color: rgb(244,252,250);
+    #sixth-section{
+        background-color: rgb(244,252,250);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        margin-bottom: 120px;
+        gap: 80px;
+    }
+    .image-left{
+        // border: thin solid black;
+        width: 20em;
+        background-image: url(../image/opay-app.png);
+        height: 65vh;
+        background-size: cover;
+        background-position: -210px 0px;
+    }
+    .first-h11{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(47,59,76);
+        font-size: 40px;
+        display: block;
+
+    }
+    .second-h1{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(47,59,76);
+        font-size: 30px;
+        display: none;
+    }
+    .right-inside{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .barcode{
+        height: 15vh;
+        width: 7em;
+        padding: 16px;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 2px 10px 18px rgb(180, 177, 177);
+    }
+}
+
+@media (max-width: 1200px){
+    #sixth-section1{
+        background-color: rgb(244,252,250);
+        #sixth-section{
+            background-color: rgb(244,252,250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 70px;
+            margin-bottom: 90px;
+            gap: 80px;
+        }
+        .image-left{
+            // border: thin solid black;
+            width: 20em;
+            background-image: url(../image/opay-app.png);
+            height: 65vh;
+            background-size: cover;
+            background-position: -210px 0px;
+        }
+        .image-left{
+            // border: thin solid black;
+            width: 20em;
+            background-image: url(../image/opay-app.png);
+            height: 45vh;
+            background-size: cover;
+            background-position: -510px 0px;
+        }
+        .first-h11{
+            font-family: 'Encode Sans', sans-serif;
+            color: rgb(47,59,76);
+            font-size: 30px;
+            display: none;
+        }
+        .second-h1{
+            font-family: 'Encode Sans', sans-serif;
+            color: rgb(47,59,76);
+            font-size: 30px;
+            display: block;
+        }
+
+        }       
+}
+@media (max-width: 992px){
+
+    #sixth-section1{
+    background-color: rgb(244,252,250);
+    #sixth-section{
+        background-color: rgb(244,252,250);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        margin-bottom: 90px;
+        gap: 80px;
+    }
+    .image-left{
+        // border: thin solid black;
+        width: 20em;
+        background-image: url(../image/opay-app.png);
+        height: 65vh;
+        background-size: cover;
+        background-position: -210px 0px;
+    }
+    .first-h11{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(47,59,76);
+        font-size: 40px;
+        display: block;
+
+    }
+    .second-h1{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(47,59,76);
+        font-size: 30px;
+        display: none;
+    }
+    .right-inside{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .barcode{
+        height: 15vh;
+        width: 7em;
+        padding: 16px;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 2px 10px 18px rgb(180, 177, 177);
+    }
+}
+
+@media (max-width: 992px){
+    #sixth-section1{
+        background-color: rgb(244,252,250);
+        #sixth-section{
+            background-color: rgb(244,252,250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 70px;
+            margin-bottom: 90px;
+            gap: 80px;
+            flex-wrap: wrap;
+        }
+
+        .image-left{
+            // border: thin solid black;
+            width: 20em;
+            background-image: url(../image/opay-app.png);
+            height: 45vh;
+            background-size: cover;
+            background-position: -80px 0px;
+        }
+        .first-h11{
+            font-family: 'Encode Sans', sans-serif;
+            color: rgb(47,59,76);
+            font-size: 30px;
+            display: none;
+        }
+        .second-h1{
+            font-family: 'Encode Sans', sans-serif;
+            color: rgb(47,59,76);
+            font-size: 30px;
+            display: block;
+        }
+
+        }  
+    }
+
+}
+
+// end of section6
+// beginning of section 7
+
+#section7{
+    background-color: rgb(244,252,250);
+    height: 80vh;
+    margin-bottom: 80px;
+
+    .text-div{
+        padding-top: 60px;
+    }
+    h1{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(33,15,96);
+        font-size: 50px;
+    }
+    p{
+        color: rgb(33,15,96);
+        font-size: 33px;  
+        padding-bottom: 60px;
+    }
+    .scroll-div{
+        // border: thin solid black;
+        height: 40vh;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        cursor: pointer;
+    }
+    
+}
+
+// secion8
+#section8{
+   
+    padding-top: 80px;
+    margin-bottom: 360px;
+  
+  
+    
+    h1{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(33,15,96);
+        font-size: 50px;
+    }
+    .flex-box{
+        display: flex;
+        padding-top: 130px;
+        gap: 30px;
+        justify-content: center;
+
+        
+    }
+    .boxx1{
+        // border: thin solid black;
+        background-color: rgb(243,252,250);
+        padding: 30px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+
+        p{
+            line-height: 30px;
+            font-size: 17px;
+        }
+        
+    }
+    .boxx2{
+        // border: thin solid black;
+        background-color: rgb(243,252,250);
+        padding: 30px;
+        border-radius: 20px;
+
+        p{
+            line-height: 30px;
+            font-size: 17px;
+        }  
+    }
+    .shield{
+        // border: solid thin black;
+        background-image: url(../image/security.png);
+        height: 80vh;
+        width: 40em;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -130px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    #section8{
+        .shield{
+            // border: solid thin black;
+            background-image: url(../image/security.png);
+            height: 60vh;
+            width: 40em;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+}
+@media (max-width: 992px){
+    #section8{
+        .flex-box{
+            display: flex;
+            padding-top: 130px;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;       
+        }
+
+        .shield{
+            margin-top: 30px;
+            // border: solid thin black;
+            background-image: url(../image/security.png);
+            height: 80vh;
+            width: 40em;
+            background-repeat: no-repeat;
+            background-size: 30em;
+            background-position: 130px 10px;
+        }
+    }
+
+}
+
+// section9
+#section91{
+    margin-bottom: 90px;
+    
+#section9{
+ background-color: rgb(33,15,96);
+ border-radius: 40px;
+ padding: 30px;
+ display: flex;
+ gap: 30px;
+ position: relative;
+
+}
+.text-here{
+    width: 38em;
+    padding: 80px 20px;
+
+    h1{
+        font-family: 'Encode Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        
+        text-align: left;
+    }
+    .flex-div{
+        display: flex;
+        margin-top: 40px;
+        gap: 10px;
+
+        p{
+            margin: 0px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+
+    }
+}
+.image-here{
+   margin-top: -200px;
+
+}
+}
+@media (max-width: 1200px){
+    .help-img{
+        width: 25em;
+    }
+}
+
+@media (max-width: 992px){
+    #section91{
+        margin-bottom: 90px;
+        
+    #section9{
+     background-color: rgb(33,15,96);
+     border-radius: 40px;
+     padding: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     justify-content: center;
+    }
+    .help-img{
+        display: none;
+    }
+    }
+}
+
+
+    #footer-container1{
+        background-color: rgb(29,207,159);
+        margin-bottom: 150px;
+        margin-top: 130px;
+
+        #footer-container2{
+            background-color: rgb(29,207,159);
+            flex-wrap: wrap;
+            cursor: pointer;
+            padding: 30px 20px;
+            justify-content: space-between;
+    
+           
+        }
+        p{
+            line-height: 44px;
+            font-size: 17px;
+            color: white;
+        }
+    }
+    
+
+    #footer1{
+        // border: thin solid black;
+        background-color: rgb(210,245,236);
+
+        #footer2{
+            background-color: rgb(210,245,236);
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            
+        }
+    }
+    
+    
+
+
+
+
+
+
+   
+
+
