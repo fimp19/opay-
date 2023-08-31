@@ -10,6 +10,25 @@
     background-color: white;
     
 }
+#drop1{
+    text-align: center;
+    margin-left: -40px;
+    border: none;
+    box-shadow: 0px 10px 40px rgb(192, 192, 192);
+    line-height: 50px;
+    padding: 0px 20px;
+}
+#drop2{
+    text-align: center;
+    margin-left: -40px;
+    border: none;
+    box-shadow: 0px 10px 40px rgb(192, 192, 192);
+    line-height: 50px;
+    padding: 0px 20px;
+}
+
+
+    
 #div-nav{
     margin-right: 50px;
 
@@ -127,6 +146,22 @@
     
 }
                                             // media-query-first-section
+@media (max-width: 1309px){
+     .first{
+   .dotted-circle{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 2.1s;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+}
+}
+
+}
 
 @media (max-width: 1200px){
     .first{
@@ -142,6 +177,17 @@
         background-size:  contain;
  
    }
+   .dotted-circle{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 2.1s;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+}
 }
 }
 @media (max-width: 992px){
@@ -210,7 +256,19 @@
             background-position: top;
             background-size:cover;  
             margin: auto;        
-        }   
+        }  
+        .dotted-circle{
+            display: none;
+            position: absolute;
+            top: 600px;
+            left: 600px;
+            animation-name: upDown;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            animation-duration: 2.1s;
+            animation-direction:alternate;
+            animation-timing-function: ease-in-out;
+        } 
     }
    }
 
@@ -1391,15 +1449,17 @@ footer{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+    
         
     }
     
 }
 
 .arrow-button{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
-    position: absolute;
-    // top: -210px;
+    
+    margin-left: 92em;
+    position: fixed;
+    margin-top: 40em;
+
+
 }

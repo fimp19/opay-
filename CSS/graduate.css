@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+#nav-bar {
+  height: 9vh;
+  position: fixed;
+  background-color: white;
+}
+
+#drop1 {
+  text-align: center;
+  margin-left: -40px;
+  border: none;
+  box-shadow: 0px 10px 40px rgb(192, 192, 192);
+  line-height: 50px;
+  padding: 0px 20px;
+}
+
+#drop2 {
+  text-align: center;
+  margin-left: -40px;
+  border: none;
+  box-shadow: 0px 10px 40px rgb(192, 192, 192);
+  line-height: 50px;
+  padding: 0px 20px;
+}
+
+#div-nav {
+  margin-right: 50px;
+}
+#div-nav ul {
+  font-size: 17px;
+  gap: 30px;
+  color: black;
+}
+
+#first {
+  margin-top: 70px;
+  background: linear-gradient(to left, rgb(232, 255, 249), rgb(255, 255, 255));
+}
+#first .d {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+#first .d button {
+  padding: 0px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  display: none;
+  margin-top: 5em;
+}
+#first #second {
+  display: flex;
+  gap: 10em;
+}
+#first #second h1 {
+  color: rgb(44, 62, 80);
+  font-family: "Encode Sans", sans-serif;
+  font-size: 2.8em;
+  line-height: 2em;
+}
+#first #second .text {
+  margin-top: 10em;
+}
+#first #second .image img {
+  width: 37em;
+  margin-top: 2em;
+}
+#first #second .image .b {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  gap: 10px;
+}
+#first #second .image .b button {
+  padding: 0px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  #first #second .text {
+    margin-top: 7em;
+  }
+  #first #second .image img {
+    width: 20em;
+    margin-top: 2em;
+  }
+}
+@media (max-width: 992px) {
+  #first .d {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+  #first .d button {
+    padding: 0px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-top: 5em;
+  }
+  #first #second {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #first #second .text .d button {
+    display: block;
+  }
+  #first #second h1 {
+    text-align: center;
+    margin-top: -2em;
+  }
+  #first #second .b button {
+    display: none;
+  }
+  #first #second .image img {
+    margin-top: -9em;
+  }
+}
+#first1 {
+  background-color: rgb(249, 249, 249);
+  height: 60vh;
+}
+#first1 #second1 {
+  background-color: rgb(249, 249, 249);
+}
+#first1 #second1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 3em;
+}
+#first1 #second1 .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.5em;
+  margin-top: 4em;
+}
+#first1 #second1 .flex11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.5em;
+  margin-top: 4em;
+  display: none;
+}
+#first1 #second1 p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+#first1 .flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13em;
+  margin-top: 2em;
+}
+#first1 .flex2 .first-p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: -10px;
+}
+#first1 .flex2 .second-p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: -14px;
+}
+#first1 .flex2 .third-p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+@media (max-width: 992px) {
+  #first1 #second1 .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-top: 2em;
+  }
+  #first1 #second1 .flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+    margin-top: 2em;
+  }
+  #first1 #second1 .flex2 .first-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  #first1 #second1 .flex2 .second-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: -14px;
+  }
+  #first1 #second1 .flex2 .third-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 768px) {
+  #first1 #second1 h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 3em;
+  }
+  #first1 #second1 .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+    display: none;
+  }
+  #first1 #second1 .flex11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 4em;
+  }
+  #first1 #second1 .flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 2em;
+  }
+  #first1 #second1 .flex2 .first-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  #first1 #second1 .flex2 .second-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: -14px;
+  }
+  #first1 #second1 .flex2 .third-p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 25px;
+  }
+}
+#third #third2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10em;
+}
+#third #third2 button {
+  padding: 20px 80px;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.3em;
+  background-color: rgb(29, 203, 155);
+  border-radius: 90px;
+  border: none;
+  font-weight: 700;
+}
+#third #third2 button a {
+  text-decoration: none;
+  color: white;
+}
+
+#four #four1 {
+  display: flex;
+  height: 70vh;
+}
+#four #four1 #left {
+  width: 30%;
+  border-right: thin solid rgb(0, 0, 0);
+  padding: 30px 20px;
+}
+#four #four1 #left #searchq {
+  width: 17em;
+  height: 4vh;
+}
+#four #four1 #left .tech a {
+  padding-left: 32px;
+  color: black;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+#four #right {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 60px 50px;
+  width: 70%;
+}
+#four #right #APP h3 {
+  border-left: 6px solid rgb(29, 203, 155);
+  padding: 5px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#four #right #APP p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+#four #right .PAYMENT h3 {
+  border-left: 6px solid rgb(29, 203, 155);
+  padding: 5px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#four #right .PAYMENT p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  #four #four1 {
+    display: flex;
+    height: 70vh;
+  }
+}
